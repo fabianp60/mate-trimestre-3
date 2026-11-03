@@ -1,5 +1,8 @@
 # Aventura Matemática de Luciana · Trimestre 3 🌟📐
 
+> 🎮 **Jugar en línea en GitHub Pages:** **[https://fabianp60.github.io/mate-trimestre-3/](https://fabianp60.github.io/mate-trimestre-3/)**  
+> 📄 **Examen Imprimible (PDF):** **[Descargar Cuadernillo](https://fabianp60.github.io/mate-trimestre-3/simulacro_examen_matematicas.pdf)** | 📘 **[Guía y Solucionario](https://fabianp60.github.io/mate-trimestre-3/solucionario_y_guia_evaluacion.pdf)**
+
 Aplicación web interactiva, gamificada y material de evaluación oficial para **4.° Grado de Primaria** del **Colegio Bilingüe Lerner & Klein**, diseñada específicamente para preparar con éxito las evaluaciones del **Tercer Trimestre (semana del 9 al 13 de noviembre)**.
 
 ---
