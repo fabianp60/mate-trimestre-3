@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aventura Matemática · Trimestre 3 · Grado 4.°</title>
+  <meta name="description" content="Aplicación interactiva y gamificada para aprender, practicar y evaluar Fracción de un número, Volumen, Cuerpos Geométricos 3D, Medidas Estadísticas y Porcentajes en 4.° grado.">
+  <meta name="theme-color" content="#4f46e5">
+
+  <!-- Fuentes Seguras y Legibles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700;800&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos Principales -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Three.js y OrbitControls locales (Offline & Seguros) con Fallback -->
+  <script src="lib/three.min.js"></script>
+  <script src="lib/OrbitControls.js"></script>
+  <script>
+    // Fallback a CDN en caso de que los archivos locales no carguen
+    if (typeof THREE === 'undefined') {
+      const s1 = document.createElement('script');
+      s1.src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';
+      s1.onload = () => {
+        const s2 = document.createElement('script');
+        s2.src = 'https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js';
+        document.head.appendChild(s2);
+      };
+      document.head.appendChild(s1);
+    }
+  </script>
+</head>
+<body>
+  <!-- Fondo con formas dinámicas -->
+  <div class="bg-shapes" aria-hidden="true">
+    <i class="b1"></i><i class="b2"></i><i class="b3"></i><i class="b4"></i><i class="b5"></i>
+  </div>
+
+  <!-- Barra de Navegación y HUD -->
+  <header id="topbar" class="topbar">
+    <button id="brandBtn" class="brand-btn" onclick="navigate('home')" aria-label="Ir al inicio">
+      <span class="brand-avatar" id="hudAvatar">🦊</span>
+      <span>Aventura Mate 3</span>
+    </button>
+
+    <nav class="nav-links" aria-label="Navegación principal">
+      <button class="nav-btn active" id="nav-home" onclick="navigate('home')">🗺️ Inicio</button>
+      <button class="nav-btn" id="nav-learn" onclick="navigate('learn')">📖 Aprender</button>
+      <button class="nav-btn" id="nav-practice" onclick="navigate('practice')">🎯 Practicar</button>
+      <button class="nav-btn" id="nav-exam" onclick="navigate('exam')">📝 Examen</button>
+      <button class="nav-btn" id="nav-trophies" onclick="navigate('trophies')">🏆 Trofeos</button>
+      <button class="nav-btn" id="nav-print" onclick="openPrintablesModal()">🖨️ Imprimibles</button>
+    </nav>
+
+    <div class="hud-chips">
+      <div class="chip chip-level" title="Nivel actual">
+        <span id="hudLevel">Nv 1</span>
+      </div>
+      <div class="xp-wrap" title="Progreso de Experiencia">
+        <div class="xp-bar-bg">
+          <div id="hudXpFill" class="xp-bar-fill"></div>
+        </div>
+        <span class="xp-label" id="hudXpText">0 / 100 XP</span>
+      </div>
+      <div class="chip chip-stars" title="Estrellas coleccionadas">
+        ⭐ <span id="hudStars">0</span>
+      </div>
+      <div class="chip chip-streak" title="Racha de aciertos">
+        🔥 <span id="hudStreak">0</span>
+      </div>
+      <button class="btn-icon" id="soundBtn" onclick="toggleSound()" aria-label="Activar o desactivar sonido" title="Sonido">
+        🔊
+      </button>
+    </div>
+  </header>
+
+  <!-- Área de Aplicación Dinámica -->
+  <main id="app" aria-live="polite"></main>
+
+  <!-- Canvas de Confeti Celebratorio -->
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <!-- Script Lógico Principal -->
+  <script src="app.js"></script>
+</body>
+</html>
