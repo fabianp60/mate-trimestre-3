@@ -384,69 +384,73 @@ def build_exam_html():
   <div>
     <div class="header-card">
       <div class="header-title-row">
-        <div class="school-title">Colegio Bilingüe Lerner & Klein</div>
-        <div class="badge-exam">EVALUACIÓN DE MATEMÁTICAS · TRIMESTRE 3</div>
+        <div class="school-title">Colegio Bilingüe Lerner & Klein · División de Formación</div>
+        <div class="badge-exam">EVALUACIÓN DE MATEMÁTICAS · TRIMESTRE 3 (C-P-A)</div>
       </div>
       <div class="header-info-grid">
-        <div class="field-box"><span class="field-label">Estudiante:</span> Luciana</div>
-        <div class="field-box"><span class="field-label">Grado:</span> 4.° Primaria</div>
+        <div class="field-box"><span class="field-label">Estudiante:</span> Luciana Peña Lozano</div>
+        <div class="field-box"><span class="field-label">Curso:</span> 4.° A (Prof.ª Andrea Guerrero)</div>
         <div class="field-box"><span class="field-label">Fecha:</span> Noviembre 2026</div>
         <div class="field-box"><span class="field-label">Puntaje:</span> ____ / 100 pts</div>
       </div>
     </div>
 
-    <!-- PREGUNTA 1: Fracción de un número con reparto gráfico -->
+    <!-- PREGUNTA 1: Fracción de un número con AMBOS métodos del Colegio (Cajón y Poner un 1 abajo) -->
     <div class="question-card">
       <div class="question-header">
-        <span class="q-badge">Tema 1: Fracción de un Número</span>
+        <span class="q-badge">Tema 1: Fracción de un Número (Formato Taller DP12-FR-02)</span>
         <span class="q-points">10 Puntos</span>
       </div>
       <div class="q-text">
-        <b>1. Repartición de Materiales Escolares:</b> En el salón de 4.° grado hay un estuche con <b>28 marcadores de colores</b>.
-        La profesora indica que <b>3/4</b> de los marcadores son de punta fina y el resto son gruesos.
+        <b>1. La Maqueta de Geometría:</b> En el estante de materiales hay un paquete con <b>20 barras de plastilina</b>.
+        Si el grupo de 4.° A gasta las <b>3/4</b> partes de ese paquete en su maqueta, ¿cuántas barras completas usaron?
       </div>
       <div style="display: flex; gap: 10px; margin-bottom: 4px;">
         <div style="flex: 1;">
-          <div style="font-size: 8.5pt; margin-bottom: 3px;">
-            <b>a)</b> Dibuja las 4 cajas iguales para repartir los 28 marcadores y encierra con una línea las 3 cajas tomadas:
-          </div>
-          <div class="work-grid" style="height: 52px;"></div>
-        </div>
-        <div style="flex: 1;">
-          <div style="font-size: 8.5pt; margin-bottom: 3px;">
-            <b>b)</b> Escribe el procedimiento numérico en 2 pasos:
+          <div style="font-size: 8.3pt; margin-bottom: 2px;">
+            <b>a) Método 1 (Cajón del cuaderno):</b> Divide el total entre el denominador y multiplica al lado por el numerador:
           </div>
           <div class="work-grid" style="height: 52px;">
-            Paso 1 (División): 28 ÷ _____ = _____<br>
-            Paso 2 (Multiplicación): _____ × 3 = _____
+            División en cajón: <b>20 ÷ 4 = _____</b><br>
+            Multiplicación al lado: <b>_____ × 3 = _____ barras</b>
+          </div>
+        </div>
+        <div style="flex: 1;">
+          <div style="font-size: 8.3pt; margin-bottom: 2px;">
+            <b>b) Método 2 (Pista del taller: Ponle un 1 abajo al 20):</b><br>
+            Multiplica de frente <code>(20/1) × (3/4)</code> y divide:
+          </div>
+          <div class="work-grid" style="height: 52px;">
+            Fracción: <b>(20 × 3) / (1 × 4) = _____ / 4</b><br>
+            numerador ÷ denominador = <b>_____ ÷ _____ = _____</b>
           </div>
         </div>
       </div>
       <div class="answer-box">
-        <span>Respuesta final: Hay</span>
-        <div class="answer-line" style="max-width: 80px;"></div>
-        <span>marcadores de punta fina en el estuche.</span>
+        <span>R: El grupo de 4.° A usó en total</span>
+        <div class="answer-line" style="max-width: 70px;"></div>
+        <span>barras completas de plastilina (y quedaron _____ sin usar).</span>
       </div>
     </div>
 
-    <!-- PREGUNTA 2: Problema contextual de fracciones -->
+    <!-- PREGUNTA 2: Problema contextual del cuaderno (Dulces que quedan y Fracción Impropia a Mixto) -->
     <div class="question-card">
       <div class="question-header">
-        <span class="q-badge">Tema 1: Fracción de un Número</span>
+        <span class="q-badge">Tema 1: Fracción de una Cantidad y Número Mixto</span>
         <span class="q-points">10 Puntos</span>
       </div>
       <div class="q-text">
-        <b>2. La Pastelería de Luciana:</b> Para la fiesta de fin de año, se hornearon <b>30 galletas mágicas</b>.
-        Los <b>2/5</b> de las galletas se decoraron con chispas de chocolate, los <b>1/3</b> con caramelo y el resto con vainilla.
+        <b>2. El Compartir del Salón:</b> En una caja hay <b>30 dulces</b>. Primero se reparten las <b>2/5</b> partes entre los amigos.
+        Además, en otra mesa abrieron paquetes de galletas de <b>6 partes iguales</b> y se comieron <b>7/6</b> en total.
       </div>
-      <div class="work-grid" style="min-height: 66px; padding: 6px 10px; margin-bottom: 4px; line-height: 1.45;">
-        <div class="work-grid-title">Espacio de Operaciones y Procedimiento:</div>
-        • Galletas de chocolate (2/5 de 30): (30 ÷ 5) × 2 = _____ × 2 = _____ galletas.<br>
-        • Galletas de caramelo (1/3 de 30): (30 ÷ 3) × 1 = _____ × 1 = _____ galletas.<br>
-        • Galletas de vainilla (el resto): 30 - ( _____ + _____ ) = 30 - _____ = _____ galletas.
+      <div class="work-grid" style="min-height: 64px; padding: 5px 10px; margin-bottom: 4px; line-height: 1.42;">
+        <div class="work-grid-title">Procedimiento Paso a Paso:</div>
+        • <b>a) Dulces repartidos (2/5 de 30):</b> 30 ÷ 5 = _____ &rarr; _____ × 2 = <b>_____ dulces repartidos</b>.<br>
+        • <b>b) Dulces que QUEDARON en la caja:</b> 30 − _____ = <b>_____ dulces quedaron</b>.<br>
+        • <b>c) Convierte la fracción impropia 7/6 de galletas a Número Mixto:</b> 7 ÷ 6 = <b>___ entero y ___ / 6</b>.
       </div>
       <div class="answer-box">
-        <span>Respuesta: Chocolate = _____ galletas | Caramelo = _____ galletas | Vainilla = _____ galletas.</span>
+        <span>R: Se repartieron _____ dulces, quedaron _____ en la caja, y 7/6 equivale al número mixto _________.</span>
       </div>
     </div>
 
@@ -457,25 +461,25 @@ def build_exam_html():
         <span class="q-points">10 Puntos</span>
       </div>
       <div class="q-text">
-        <b>3. Conteo de Cubos Unidad:</b> Observa con atención la siguiente construcción tridimensional formada por cubitos de <b>1 cm³</b>.
-        Ten en cuenta los cubos que sirven de base y que quedan ocultos en el piso inferior.
+        <b>3. Conteo de Cubos Unidad:</b> El volumen es el <i>espacio que ocupa un cuerpo</i> y se mide en unidades cúbicas (<b>cm³, m³</b>).
+        Observa la figura formada por cubitos de <b>1 cm³</b> (recuerda contar los cubos ocultos que sostienen el piso 2):
       </div>
       <div style="display: flex; gap: 14px; align-items: center;">
         <div style="text-align: center;">
-          {get_svg_cube_blocks_volume(145, 110)}
+          {get_svg_cube_blocks_volume(145, 108)}
           <div style="font-size: 8.5pt; font-weight: bold; color: #1e3a8a; margin-top: 2px;">🧊 1 cubito = 1 cm³</div>
         </div>
         <div style="flex: 1;">
           <div style="font-size: 8.5pt; margin-bottom: 4px;">
-            <b>a)</b> ¿Cuántos cubitos hay en el piso 1 (capa base inferior)? _____ cubitos.<br>
-            <b>b)</b> ¿Cuántos cubitos hay en el piso 2 (capa superior)? _____ cubitos.<br>
-            <b>c)</b> ¿Cuál es el volumen total de la construcción?
+            <b>a)</b> Cubitos en el piso 1 (base inferior de 3 × 2): _____ cubitos.<br>
+            <b>b)</b> Cubitos en el piso 2 (capa superior): _____ cubitos.<br>
+            <b>c)</b> Suma total de ambos pisos:
           </div>
-          <div class="work-grid" style="height: 38px;">
-            Operación de suma: _____ + _____ = _____ cm³
+          <div class="work-grid" style="height: 36px;">
+            Operación: _____ + _____ = _____ cm³
           </div>
           <div class="answer-box">
-            <span>Volumen Total =</span>
+            <span>R: Volumen Total =</span>
             <div class="answer-line" style="max-width: 90px;"></div>
             <span>cm³</span>
           </div>
@@ -485,303 +489,300 @@ def build_exam_html():
   </div>
 
   <div class="footer-row">
-    <span>Colegio Bilingüe Lerner & Klein · Grado 4.°</span>
+    <span>Colegio Bilingüe Lerner & Klein · Grado 4.° A</span>
     <span>Página 1 de 4</span>
   </div>
 </div>
 
-<!-- PÁGINA 2: VOLUMEN DE ORTOEDROS Y CLASIFICACIÓN DE CUERPOS 3D -->
+<!-- PÁGINA 2: VOLUMEN DE ORTOEDROS Y CLASIFICACIÓN DE CUERPOS SÓLIDOS -->
 <div class="page">
   <div>
     <div class="header-card" style="padding: 4px 10px; margin-bottom: 5px;">
       <div style="display: flex; justify-content: space-between; font-size: 8.5pt; font-weight: 700; color: #1e40af;">
-        <span>COLEGIO BILINGÜE LERNER & KLEIN</span>
-        <span>MATEMÁTICAS · 4.° PRIMARIA · EXAMEN TRIMESTRE 3</span>
+        <span>COLEGIO BILINGÜE LERNER & KLEIN · 4.° A</span>
+        <span>MATEMÁTICAS · EVALUACIÓN TRIMESTRE 3</span>
       </div>
     </div>
 
-    <!-- PREGUNTA 4: Volumen de prisma rectangular (fórmula) -->
+    <!-- PREGUNTA 4: Volumen de prisma rectangular (fórmula del cuaderno) -->
     <div class="question-card">
       <div class="question-header">
-        <span class="q-badge">Tema 2: Cálculo de Volumen</span>
+        <span class="q-badge">Tema 2: Cálculo de Volumen (Fórmula del Cuaderno)</span>
         <span class="q-points">10 Puntos</span>
       </div>
       <div class="q-text">
-        <b>4. Caja de Regalo (Prisma Rectangular):</b> Luciana tiene una caja para guardar sus bloques cuyas dimensiones se muestran en la figura:
-        <b>Largo = 6 cm</b>, <b>Ancho = 4 cm</b> y <b>Alto = 3 cm</b>.
+        <b>4. Prisma Rectangular (Largo × Ancho × Alto):</b> Calcula el volumen de la caja de la figura (<b>6 cm × 4 cm × 3 cm</b>) y también el volumen del ejercicio de tu cuaderno (<b>largo = 5 cm, ancho = 2 cm, alto = 6 cm</b>):
       </div>
       <div style="display: flex; gap: 14px; align-items: center;">
         <div style="text-align: center;">
-          {get_svg_rectangular_prism(160, 105)}
+          {get_svg_rectangular_prism(155, 102)}
         </div>
         <div style="flex: 1;">
-          <div style="font-size: 8.5pt; margin-bottom: 3px;">
-            <b>a) Escribe la fórmula del volumen:</b><br>
-            <code>Volumen = Largo × Ancho × Alto</code>
-          </div>
-          <div class="work-grid" style="height: 48px;">
-            <div class="work-grid-title">Operación:</div>
-            Volumen = _____ cm × _____ cm × _____ cm = __________ cm³
+          <div class="work-grid" style="height: 62px; line-height: 1.45;">
+            <div class="work-grid-title">Aplica V = largo × ancho × alto:</div>
+            <b>a) Caja de la figura:</b> V = 6 cm × 4 cm × 3 cm = <b>________ cm³</b><br>
+            <b>b) Prisma del cuaderno:</b> V = 5 cm × 2 cm × 6 cm = <b>________ cm³</b>
           </div>
           <div class="answer-box">
-            <span>Respuesta: El volumen de la caja es de</span>
-            <div class="answer-line" style="max-width: 80px;"></div>
-            <span>cm³.</span>
+            <span>R: Caja = _______ cm³ | Prisma cuaderno = _______ cm³.</span>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- PREGUNTA 5: Tabla comparativa de Cuerpos 3D -->
+    <!-- PREGUNTA 5: Tabla comparativa de Cuerpos Sólidos -->
     <div class="question-card">
       <div class="question-header">
-        <span class="q-badge">Tema 3: Cuerpos Geométricos</span>
+        <span class="q-badge">Tema 3: Cuerpos Sólidos (Caras, Aristas y Vértices)</span>
         <span class="q-points">10 Puntos</span>
       </div>
       <div class="q-text">
-        <b>5. Clasificación y Elementos:</b> Completa la siguiente tabla indicando el tipo de cuerpo (Poliedro o Redondo),
-        el número de caras, aristas, vértices y la forma de su(s) base(s):
+        <b>5. Clasificación y Conteo de Elementos:</b> Completa la tabla identificando si es Poliedro o Redondo, el número de caras, vértices, aristas y la forma de sus caras laterales:
       </div>
       <table class="exam-table">
         <thead>
           <tr>
-            <th>Cuerpo Geométrico</th>
-            <th>Tipo (Poliedro / Redondo)</th>
+            <th>Cuerpo Sólido</th>
+            <th>Tipo</th>
             <th>Caras (F)</th>
             <th>Vértices (V)</th>
             <th>Aristas (E)</th>
-            <th>Forma de la Base</th>
+            <th>Caras Laterales</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td style="font-weight:700;">Cubo (Hexaedro regular)</td>
+            <td style="font-weight:700;">Cubo (Prisma cuadrangular)</td>
             <td>Poliedro</td>
             <td>_____</td>
             <td>_____</td>
             <td>_____</td>
-            <td>Cuadrado</td>
+            <td>Cuadradas / Rectangulares</td>
           </tr>
           <tr>
-            <td style="font-weight:700;">Prisma Pentagonal</td>
+            <td style="font-weight:700;">Prisma Triangular (2 bases)</td>
+            <td>Poliedro</td>
             <td>_____</td>
             <td>_____</td>
             <td>_____</td>
-            <td>_____</td>
-            <td>Pentágono (5 lados)</td>
+            <td>_________________ (¡Ojo!)</td>
           </tr>
           <tr>
-            <td style="font-weight:700;">Pirámide Cuadrangular</td>
+            <td style="font-weight:700;">Pirámide Cuadrangular (1 base)</td>
+            <td>Poliedro</td>
             <td>_____</td>
             <td>_____</td>
             <td>_____</td>
-            <td>_____</td>
-            <td>Cuadrado (1 base)</td>
+            <td>_________________ (unen en vértice)</td>
           </tr>
           <tr>
-            <td style="font-weight:700;">Cilindro</td>
-            <td>Redondo</td>
-            <td>2 planas</td>
-            <td>_____</td>
-            <td>2 curvas</td>
-            <td>Círculo</td>
+            <td style="font-weight:700;">Cono / Cilindro</td>
+            <td>Redondos</td>
+            <td>Cono: 1 plana</td>
+            <td>Cono: ___ / Cil: ___</td>
+            <td>Curvas</td>
+            <td>Superficie curva</td>
           </tr>
         </tbody>
       </table>
     </div>
 
-    <!-- PREGUNTA 6: Diferenciación visual de Pirámide vs Prisma -->
+    <!-- PREGUNTA 6: Diferenciación visual y conceptual de Pirámide vs Prisma (Mapa del Cuaderno) -->
     <div class="question-card">
       <div class="question-header">
-        <span class="q-badge">Tema 3: Cuerpos Geométricos</span>
+        <span class="q-badge">Tema 3: Mapa Conceptual de Cuerpos Sólidos</span>
         <span class="q-points">10 Puntos</span>
       </div>
       <div class="q-text">
-        <b>6. Detective de Figuras 3D:</b> Observa los dos cuerpos geométricos que dibujó Luciana en su cuaderno:
+        <b>6. Prisma vs. Pirámide (¡Cazadora de Errores!):</b> Observa los dos cuerpos sólidos y completa con precisión:
       </div>
       <div style="display: flex; justify-content: space-around; align-items: center; margin: 4px 0;">
         <div style="text-align: center; border: 1px solid #cbd5e1; border-radius: 6px; padding: 4px 10px;">
           <b>Cuerpo A</b><br>
-          {get_svg_square_pyramid(100, 80)}<br>
-          <span style="font-size: 8pt; color: #475569;">1 base y caras triangulares</span>
+          {get_svg_square_pyramid(95, 76)}<br>
+          <span style="font-size: 8pt; color: #475569;">1 sola base y termina en vértice</span>
         </div>
         <div style="text-align: center; border: 1px solid #cbd5e1; border-radius: 6px; padding: 4px 10px;">
           <b>Cuerpo B</b><br>
-          {get_svg_triangular_prism(100, 80)}<br>
-          <span style="font-size: 8pt; color: #475569;">2 bases paralelas iguales</span>
+          {get_svg_triangular_prism(95, 76)}<br>
+          <span style="font-size: 8pt; color: #475569;">2 bases iguales y paralelas</span>
         </div>
       </div>
-      <div style="font-size: 8.5pt;">
-        <b>a)</b> Nombre exacto del Cuerpo A: _____________________________ (¿Prisma o Pirámide?).<br>
-        <b>b)</b> Nombre exacto del Cuerpo B: _____________________________ (¿Prisma o Pirámide?).<br>
-        <b>c)</b> ¿Cuál es la diferencia principal entre cómo terminan arriba un prisma y una pirámide?
+      <div style="font-size: 8.4pt; line-height: 1.45;">
+        <b>a)</b> El <b>Cuerpo A</b> es una _____________________________ porque tiene <b>___ sola base</b>, sus caras laterales son <b>____________________</b> y terminan arriba en un <b>________________</b>.<br>
+        <b>b)</b> El <b>Cuerpo B</b> es un _____________________________ porque tiene <b>___ bases iguales</b> y sus caras laterales son <b>____________________</b> (¡nunca triangulares!).
       </div>
-      <div class="work-grid" style="height: 28px; margin-top: 3px;"></div>
     </div>
   </div>
 
   <div class="footer-row">
-    <span>Colegio Bilingüe Lerner & Klein · Grado 4.°</span>
+    <span>Colegio Bilingüe Lerner & Klein · Grado 4.° A</span>
     <span>Página 2 de 4</span>
   </div>
 </div>
 
-<!-- PÁGINA 3: MEDIDAS ESTADÍSTICAS (MODA, MEDIA, MEDIANA Y RANGO) -->
+<!-- PÁGINA 3: MEDIDAS ESTADÍSTICAS CON 9 DATOS (CUADERNO CLASE 52) -->
 <div class="page">
   <div>
     <div class="header-card" style="padding: 4px 10px; margin-bottom: 5px;">
       <div style="display: flex; justify-content: space-between; font-size: 8.5pt; font-weight: 700; color: #1e40af;">
-        <span>COLEGIO BILINGÜE LERNER & KLEIN</span>
-        <span>MATEMÁTICAS · 4.° PRIMARIA · EXAMEN TRIMESTRE 3</span>
+        <span>COLEGIO BILINGÜE LERNER & KLEIN · 4.° A</span>
+        <span>MATEMÁTICAS · EVALUACIÓN TRIMESTRE 3</span>
       </div>
     </div>
 
-    <!-- PREGUNTA 7: Moda, Mediana y Rango -->
+    <!-- PREGUNTA 7: Ejercicio 1 del Cuaderno (Tienda Escolar - 9 días) -->
     <div class="question-card">
       <div class="question-header">
-        <span class="q-badge">Tema 4: Medidas Estadísticas</span>
+        <span class="q-badge">Tema 4: Estadística (Ejercicio 1 del Cuaderno · 9 Datos)</span>
         <span class="q-points">10 Puntos</span>
       </div>
       <div class="q-text">
-        <b>7. Registro de Goles en el Recreo:</b> Durante 7 partidos de fútbol en el colegio, el equipo de 4.° grado anotó los siguientes goles:
-        <div style="text-align: center; font-size: 11pt; font-weight: 800; color: #1e40af; margin: 4px 0;">
-          [ 4, 7, 3, 9, 7, 5, 7 ]
+        <b>7. Ventas en la Tienda Escolar (9 días):</b> En la tienda del colegio se registraron las siguientes ventas durante 9 días:
+        <div style="text-align: center; font-size: 10.5pt; font-weight: 800; color: #1e40af; margin: 3px 0;">
+          20 - 25 - 18 - 22 - 25 - 30 - 25 - 20 - 15
         </div>
       </div>
-      <div style="font-size: 8.5pt; margin-bottom: 4px;">
-        <b>Paso 1:</b> Ordena obligatoriamente los 7 datos de MENOR a MAYOR:<br>
-        <div style="display: flex; gap: 8px; justify-content: center; margin: 4px 0;">
-          <span style="border: 1px solid #94a3b8; padding: 3px 8px; border-radius: 4px;">_____</span>
-          <span style="border: 1px solid #94a3b8; padding: 3px 8px; border-radius: 4px;">_____</span>
-          <span style="border: 1px solid #94a3b8; padding: 3px 8px; border-radius: 4px;">_____</span>
-          <span style="border: 1px solid #94a3b8; padding: 3px 8px; border-radius: 4px;">_____</span>
-          <span style="border: 1px solid #94a3b8; padding: 3px 8px; border-radius: 4px;">_____</span>
-          <span style="border: 1px solid #94a3b8; padding: 3px 8px; border-radius: 4px;">_____</span>
-          <span style="border: 1px solid #94a3b8; padding: 3px 8px; border-radius: 4px;">_____</span>
+      <div style="font-size: 8.4pt; margin-bottom: 4px;">
+        <b>Paso 1 (¡Obligatorio!):</b> Ordena los <b>9 datos</b> de MENOR a MAYOR y encierra el <b>5.° dato</b> (el centro exacto):<br>
+        <div style="display: flex; gap: 5px; justify-content: center; margin: 4px 0;">
+          <span style="border: 1px solid #94a3b8; padding: 2px 6px; border-radius: 4px;">____</span>
+          <span style="border: 1px solid #94a3b8; padding: 2px 6px; border-radius: 4px;">____</span>
+          <span style="border: 1px solid #94a3b8; padding: 2px 6px; border-radius: 4px;">____</span>
+          <span style="border: 1px solid #94a3b8; padding: 2px 6px; border-radius: 4px;">____</span>
+          <span style="border: 2px solid #2563eb; background:#eff6ff; padding: 2px 6px; border-radius: 4px; font-weight:700;">5.°: ____</span>
+          <span style="border: 1px solid #94a3b8; padding: 2px 6px; border-radius: 4px;">____</span>
+          <span style="border: 1px solid #94a3b8; padding: 2px 6px; border-radius: 4px;">____</span>
+          <span style="border: 1px solid #94a3b8; padding: 2px 6px; border-radius: 4px;">____</span>
+          <span style="border: 1px solid #94a3b8; padding: 2px 6px; border-radius: 4px;">____</span>
         </div>
       </div>
-      <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 4px;">
-        <div class="work-grid" style="height: 58px;">
-          <div class="work-grid-title">a) Hallar la MODA:</div>
-          ¿Qué dato se repite más veces?<br>
-          Moda = <b>_____</b> (aparece ___ veces)
+      <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6px; margin-bottom: 2px;">
+        <div class="work-grid" style="height: 54px;">
+          <div class="work-grid-title">a) MODA:</div>
+          Dato que más se repite:<br>
+          <b>Moda = _____</b>
         </div>
-        <div class="work-grid" style="height: 58px;">
-          <div class="work-grid-title">b) Hallar la MEDIANA:</div>
-          ¿Qué dato queda en el centro exacto?<br>
-          Mediana = <b>_____</b>
+        <div class="work-grid" style="height: 54px;">
+          <div class="work-grid-title">b) MEDIANA:</div>
+          Dato central (5.°):<br>
+          <b>Mediana = _____</b>
         </div>
-        <div class="work-grid" style="height: 58px;">
-          <div class="work-grid-title">c) Hallar el RANGO:</div>
-          Mayor - Menor =<br>
-          _____ - _____ = <b>_____</b>
+        <div class="work-grid" style="height: 54px;">
+          <div class="work-grid-title">c) RANGO:</div>
+          Mayor − Menor:<br>
+          ___ − ___ = <b>___</b>
+        </div>
+        <div class="work-grid" style="height: 54px;">
+          <div class="work-grid-title">d) MEDIA:</div>
+          Suma = _____<br>
+          ___ ÷ 9 = <b>_____</b>
         </div>
       </div>
     </div>
 
-    <!-- PREGUNTA 8: Cálculo de la Media (Promedio) -->
+    <!-- PREGUNTA 8: Ejercicio 5 del Cuaderno (Edades de 9 niños y división 95 ÷ 9) -->
     <div class="question-card">
       <div class="question-header">
-        <span class="q-badge">Tema 4: Medidas Estadísticas</span>
+        <span class="q-badge">Tema 4: Media o Promedio y División en Cajón (Ejercicio 5 del Cuaderno)</span>
         <span class="q-points">10 Puntos</span>
       </div>
       <div class="q-text">
-        <b>8. Promedio de Calificaciones:</b> En 5 talleres de ciencias naturales, Luciana obtuvo las siguientes notas sobre 100 puntos:
-        <div style="text-align: center; font-size: 11pt; font-weight: 800; color: #1e40af; margin: 4px 0;">
-          [ 85, 90, 75, 100, 90 ]
-        </div>
-      </div>
-      <div style="font-size: 8.5pt; margin-bottom: 4px;">
-        Calcula la <b>Media aritmética (Promedio)</b> realizando la suma total y la división correspondiente:
+        <b>8. Edades en el Taller de Arte:</b> Las edades de <b>9 niños</b> son: <b>[ 9, 10, 12, 11, 10, 13, 12, 10, 8 ]</b>.
       </div>
       <div style="display: flex; gap: 10px;">
-        <div class="work-grid" style="flex: 1; height: 60px;">
-          <div class="work-grid-title">Paso 1: Suma de las 5 notas:</div>
-          85 + 90 + 75 + 100 + 90 = __________
+        <div class="work-grid" style="flex: 1; height: 64px; line-height: 1.4;">
+          <div class="work-grid-title">a) Ordena, halla Moda, Mediana y Rango:</div>
+          Ordenados: 8 - 9 - 10 - 10 - <b>[___]</b> - 11 - 12 - 12 - 13<br>
+          • <b>Moda = _____</b> | <b>Mediana = _____</b> | <b>Rango =</b> 13 − 8 = <b>_____</b>
         </div>
-        <div class="work-grid" style="flex: 1; height: 60px;">
-          <div class="work-grid-title">Paso 2: División entre N = 5:</div>
-          __________ ÷ 5 = __________
+        <div class="work-grid" style="flex: 1; height: 64px; line-height: 1.4;">
+          <div class="work-grid-title">b) Media (Suma ÷ 9) ¡Cuidado con el 0 en el cociente!:</div>
+          Suma total = <b>95</b>. Divide en cajón <b>95 ÷ 9</b>:<br>
+          Cociente entero = <b>_____</b> | Con decimal = <b>10,_____</b>
         </div>
-      </div>
-      <div class="answer-box">
-        <span>Respuesta: La Media (Promedio) de Luciana es de</span>
-        <div class="answer-line" style="max-width: 70px;"></div>
-        <span>puntos.</span>
       </div>
     </div>
 
-    <!-- PREGUNTA 9: Porcentajes en cuadrícula de 100 -->
+    <!-- PREGUNTA 9: Porcentajes C-P-A en las 2 cuadrículas del cuaderno (60% y 22%) -->
     <div class="question-card">
       <div class="question-header">
-        <span class="q-badge">Tema 5: Porcentajes</span>
+        <span class="q-badge">Tema 5: Porcentajes C-P-A (Cuadrículas Reales de tu Cuaderno)</span>
         <span class="q-points">10 Puntos</span>
       </div>
       <div class="q-text">
-        <b>9. El Trío Matemático en la Cuadrícula:</b> Observa la cuadrícula de 10×10 (100 casillas en total) que tiene una parte sombreada:
+        <b>9. Representación Pictórica y Abstracta:</b> Observa las dos cuadrículas de 10×10 (100 cuadritos) que pegaste en tu cuaderno en la Clase 49 y completa sus equivalencias:
       </div>
-      <div style="display: flex; gap: 14px; align-items: center;">
-        <div style="text-align: center;">
-          {get_svg_grid_100(35, 115, 115)}
+      <div style="display: flex; gap: 12px; align-items: center;">
+        <div style="display: flex; gap: 8px; align-items: center; border: 1px solid #cbd5e1; border-radius: 6px; padding: 5px 8px; flex: 1;">
+          {get_svg_grid_100(60, 95, 95)}
+          <div style="font-size: 8.2pt; line-height: 1.4;">
+            <b>Cuadrícula A (6 filas):</b><br>
+            • Cuadritos: <b>_____</b> de 100<br>
+            • Porcentaje: <b>_____%</b><br>
+            • Fracción: <b>___/100</b> (o <b>3/5</b>)<br>
+            • Decimal (coma): <b>0,_____</b>
+          </div>
         </div>
-        <div style="flex: 1; font-size: 8.5pt;">
-          <b>a)</b> Cuenta las casillas sombreadas: Hay <b>_____</b> casillas azules.<br>
-          <b>b)</b> Expresa como <b>Porcentaje</b>: <b>_____%</b>.<br>
-          <b>c)</b> Expresa como <b>Fracción Decimal</b>: <span style="font-size:10pt;">_____ / 100</span>.<br>
-          <b>d)</b> Expresa como <b>Número Decimal</b>: <b>0._____</b>.<br>
-          <b>e)</b> ¿Qué significa en palabras? Significa _____ de cada _____ partes.
+        <div style="display: flex; gap: 8px; align-items: center; border: 1px solid #cbd5e1; border-radius: 6px; padding: 5px 8px; flex: 1;">
+          {get_svg_grid_100(22, 95, 95)}
+          <div style="font-size: 8.2pt; line-height: 1.4;">
+            <b>Cuadrícula B (2 filas + 2):</b><br>
+            • Cuadritos: <b>_____</b> de 100<br>
+            • Porcentaje: <b>_____%</b><br>
+            • Fracción: <b>___/100</b><br>
+            • Decimal (coma): <b>0,_____</b>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
   <div class="footer-row">
-    <span>Colegio Bilingüe Lerner & Klein · Grado 4.°</span>
+    <span>Colegio Bilingüe Lerner & Klein · Grado 4.° A</span>
     <span>Página 3 de 4</span>
   </div>
 </div>
 
-<!-- PÁGINA 4: PROBLEMAS DE APLICACIÓN DE PORCENTAJES Y AUTOEVALUACIÓN -->
+<!-- PÁGINA 4: PROBLEMA DEL JUEGO DE MESA ($60.000) Y TABLA DE CONTROL -->
 <div class="page">
   <div>
     <div class="header-card" style="padding: 4px 10px; margin-bottom: 5px;">
       <div style="display: flex; justify-content: space-between; font-size: 8.5pt; font-weight: 700; color: #1e40af;">
-        <span>COLEGIO BILINGÜE LERNER & KLEIN</span>
-        <span>MATEMÁTICAS · 4.° PRIMARIA · EXAMEN TRIMESTRE 3</span>
+        <span>COLEGIO BILINGÜE LERNER & KLEIN · 4.° A</span>
+        <span>MATEMÁTICAS · EVALUACIÓN TRIMESTRE 3</span>
       </div>
     </div>
 
-    <!-- PREGUNTA 10: Aplicación de Porcentajes en Compras -->
+    <!-- PREGUNTA 10: Descuento del Juego de Mesa de $60.000 (Cuaderno + Porcentaje 25% = 1/4 = 0,25) -->
     <div class="question-card">
       <div class="question-header">
-        <span class="q-badge">Tema 5: Porcentajes</span>
+        <span class="q-badge">Tema 5 y Tema 1: Porcentajes, Decimales y Descuento ($60.000)</span>
         <span class="q-points">10 Puntos</span>
       </div>
       <div class="q-text">
-        <b>10. Descuento en la Tienda de Juegos:</b> En una librería infantil, un juego de mesa de estrategia cuesta <b>$60.000 pesos</b>.
-        Por ser la semana del estudiante, tiene un <b>25% de descuento</b>.
+        <b>10. El Juego de Mesa de $60.000 (Ejercicio de tu Cuaderno):</b> En una tienda escolar, un juego de mesa cuesta <b>$60.000</b> y tiene un descuento del <b>25%</b> (que equivale a <b>1/4</b> de su valor).
       </div>
       <div style="display: flex; gap: 12px; margin-bottom: 4px;">
         <div style="text-align: center;">
-          <div style="font-size: 7.5pt; font-weight: 700; margin-bottom: 2px;">Sombrea el 25% (25 casillas):</div>
-          {get_svg_grid_100(0, 110, 110)}
+          <div style="font-size: 7.5pt; font-weight: 700; margin-bottom: 2px;">Colorea el 25% (25 cuadritos):</div>
+          {get_svg_grid_100(0, 105, 105)}
         </div>
-        <div style="flex: 1; font-size: 8.5pt;">
-          <b>a)</b> Sabemos que 25% equivale a la fracción simplificada <b>1/4</b> (la cuarta parte).<br>
-          <b>b)</b> Calcula el valor en dinero del descuento (1/4 de $60.000):
-          <div class="work-grid" style="height: 38px; margin: 3px 0;">
-            $60.000 ÷ 4 = $________________ pesos de descuento.
+        <div style="flex: 1; font-size: 8.4pt;">
+          <b>a)</b> Completa la equivalencia del <b>25%</b> y su valor posicional:<br>
+          <code>25% = _____ / 100 = 1 / 4 = <b>0,_____</b></code> (___ parte entera, ___ décimas y ___ centésimas).<br>
+          <b>b)</b> Calcula el descuento (<b>1/4 de $60.000</b>) usando el cajón de tu cuaderno:
+          <div class="work-grid" style="height: 34px; margin: 3px 0;">
+            $60.000 ÷ 4 = <b>$________________</b> pesos de descuento.
           </div>
-          <b>c)</b> ¿Cuánto pagará finalmente Luciana por el juego con el descuento aplicado?
-          <div class="work-grid" style="height: 38px; margin: 3px 0;">
-            $60.000 - $________________ = $________________ pesos.
+          <b>c)</b> ¿Cuánto dinero se debe pagar finalmente por el juego de mesa?
+          <div class="work-grid" style="height: 34px; margin: 3px 0;">
+            $60.000 − $________________ = <b>$________________</b> pesos.
           </div>
         </div>
       </div>
       <div class="answer-box">
-        <span>Respuesta final: El precio con descuento es de $</span>
-        <div class="answer-line" style="max-width: 110px;"></div>
-        <span>pesos.</span>
+        <span>R: El descuento es de $_____________ y finalmente se debe pagar $_____________ por el juego.</span>
       </div>
     </div>
 
@@ -789,7 +790,7 @@ def build_exam_html():
     <div style="border: 2px solid #3b82f6; border-radius: 8px; padding: 8px 12px; background: #eff6ff; margin-top: 8px;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
         <span style="font-weight: 800; font-size: 9.5pt; color: #1e40af;">🎯 Resumen y Control del Evaluador:</span>
-        <span style="font-size: 8pt; font-weight: 700; color: #64748b;">Colegio Bilingüe Lerner & Klein</span>
+        <span style="font-size: 8pt; font-weight: 700; color: #64748b;">Colegio Bilingüe Lerner & Klein · 4.° A</span>
       </div>
       <table class="exam-table" style="margin-bottom: 6px; background: white;">
         <thead>
@@ -803,35 +804,35 @@ def build_exam_html():
         </thead>
         <tbody>
           <tr>
-            <td>1. Fracción de un número</td>
+            <td>1. Fracción de un número (2 métodos + mixtos)</td>
             <td>1 y 2</td>
             <td>20 pts</td>
             <td>_____ / 20</td>
             <td>🟢 Verde (≥18) | 🟡 Amarillo (14-17) | 🔴 Rojo (&lt;14)</td>
           </tr>
           <tr>
-            <td>2. Cálculo de volumen</td>
+            <td>2. Cálculo de volumen (cubos y V = l × a × h)</td>
             <td>3 y 4</td>
             <td>20 pts</td>
             <td>_____ / 20</td>
             <td>🟢 Verde (≥18) | 🟡 Amarillo (14-17) | 🔴 Rojo (&lt;14)</td>
           </tr>
           <tr>
-            <td>3. Cuerpos geométricos (caras/aristas/vértices)</td>
+            <td>3. Cuerpos sólidos (prismas, pirámides, redondos)</td>
             <td>5 y 6</td>
             <td>20 pts</td>
             <td>_____ / 20</td>
             <td>🟢 Verde (≥18) | 🟡 Amarillo (14-17) | 🔴 Rojo (&lt;14)</td>
           </tr>
           <tr>
-            <td>4. Moda, media, mediana y rango</td>
+            <td>4. Moda, media, mediana y rango (9 datos)</td>
             <td>7 y 8</td>
             <td>20 pts</td>
             <td>_____ / 20</td>
             <td>🟢 Verde (≥18) | 🟡 Amarillo (14-17) | 🔴 Rojo (&lt;14)</td>
           </tr>
           <tr>
-            <td>5. Porcentajes (cuadrícula, fracción y decimal)</td>
+            <td>5. Porcentajes C-P-A (cuadrícula, fracción, decimal)</td>
             <td>9 y 10</td>
             <td>20 pts</td>
             <td>_____ / 20</td>
@@ -841,7 +842,7 @@ def build_exam_html():
             <td colspan="2" style="text-align: right;">TOTAL EVALUACIÓN:</td>
             <td>100 pts</td>
             <td>_____ / 100</td>
-            <td>Nota Escolar: ____________________</td>
+            <td>Desempeño: ____________________</td>
           </tr>
         </tbody>
       </table>
@@ -854,14 +855,14 @@ def build_exam_html():
           🦊 🌟 📐 💯
         </div>
         <div style="border-top: 1px solid #1e293b; width: 220px; text-align: center; padding-top: 2px;">
-          Firma de Luciana (Estudiante)
+          Firma de Luciana Peña Lozano (4.° A)
         </div>
       </div>
     </div>
   </div>
 
   <div class="footer-row">
-    <span>Colegio Bilingüe Lerner & Klein · Grado 4.°</span>
+    <span>Colegio Bilingüe Lerner & Klein · Grado 4.° A</span>
     <span>Página 4 de 4</span>
   </div>
 </div>
@@ -874,7 +875,7 @@ def build_solution_guide_html():
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<title>Solucionario y Guía Pedagógica de Evaluación - Grado 4.°</title>
+<title>Solucionario y Guía Pedagógica de Evaluación - Grado 4.° A</title>
 <style>
   @page {{
     size: letter portrait;
@@ -988,31 +989,28 @@ def build_solution_guide_html():
   <div>
     <div class="header-card">
       <div class="header-title-row">
-        <div class="school-title">Colegio Bilingüe Lerner & Klein</div>
+        <div class="school-title">Colegio Bilingüe Lerner & Klein · 4.° A</div>
         <div class="badge-guide">GUÍA PEDAGÓGICA Y SOLUCIONARIO OFICIAL · TRIMESTRE 3</div>
       </div>
       <div style="font-size: 8.5pt; color: #047857; font-weight: 600;">
-        Herramienta de acompañamiento para padres y evaluadores. Criterios de evaluación para 4.° Grado (Evaluación Nov 9-13).
+        Alineado con el cuaderno y talleres de la Prof.ª Andrea Guerrero (Enfoque C-P-A). Evaluación Nov 9-13.
       </div>
     </div>
 
     <!-- SOLUCIÓN 1 -->
     <div class="sol-card">
       <div class="sol-header">
-        <span style="color:#059669;">Pregunta 1: Fracción de un número (28 marcadores, 3/4)</span>
+        <span style="color:#059669;">Pregunta 1: Fracción de un número — Los 2 Métodos (3/4 de 20 plastilinas)</span>
         <span style="color:#92400e;">Valor: 10 Puntos</span>
       </div>
       <div class="sol-content">
-        <b>Solución Paso a Paso:</b><br>
-        • <b>Paso 1 (División):</b> 28 marcadores ÷ 4 cajas = <code>7 marcadores en cada caja</code>.<br>
-        • <b>Paso 2 (Multiplicación):</b> 7 marcadores × 3 cajas = <code>21 marcadores</code>.<br>
-        • <b>Respuesta final correcta:</b> 21 marcadores de punta fina.<br>
+        <b>Solución Paso a Paso (¡Punto clave donde Luciana tuvo dificultades en su taller escrito!):</b><br>
+        • <b>a) Método 1 (Cajón del cuaderno):</b> Divide <code>20 ÷ 4 = 5</code> y al lado multiplica <code>5 × 3 = 15 barras</code>.<br>
+        • <b>b) Método 2 (Plantilla del taller poniendo un 1 abajo):</b> <code>(20/1) × (3/4) = 60/4</code>.<br>
+        &nbsp;&nbsp;En las rayitas <code>numerador ÷ denominador = ___ ÷ ___ = ___</code> se debe escribir: <code><b>60 ÷ 4 = 15</b></code>.<br>
+        • <b>Respuesta completa (R:):</b> Usaron <b>15 barras completas</b> (y quedaron <code>20 − 15 = 5</code> barras sin usar).<br>
         <div class="rubric-box">
-          <b>Rúbrica de Calificación (10 pts):</b><br>
-          - <b>10 pts:</b> Dibuja las 4 cajas con 7 elementos cada una, encierra 3 cajas y escribe 21.<br>
-          - <b>6 pts:</b> Realiza las operaciones numéricas correctamente (28 ÷ 4 = 7; 7 × 3 = 21) pero omite el gráfico.<br>
-          - <b>3 pts:</b> Divide entre 4 pero olvida multiplicar por 3 (responde 7).<br>
-          <b>💡 Error típico de 4.°:</b> Multiplicar primero por 4 y dividir entre 3, o responder solo el resultado de la división.
+          <b>⚠️ Alerta Real del Taller de Luciana:</b> En el taller del 28 de sept, Luciana sabía hacer <code>20 ÷ 4 = 5</code> arriba, pero al llenar la plantilla final <code>numerador ÷ denominador = ___ ÷ ___ = ___</code> escribió <code>20 ÷ 4 = 5</code> olvidando multiplicar primero <code>20 × 3 = 60</code>. Verificar que escriba <b>60 ÷ 4 = 15</b>.
         </div>
       </div>
     </div>
@@ -1020,19 +1018,16 @@ def build_solution_guide_html():
     <!-- SOLUCIÓN 2 -->
     <div class="sol-card">
       <div class="sol-header">
-        <span style="color:#059669;">Pregunta 2: Problema contextual de galletas (30 en total)</span>
+        <span style="color:#059669;">Pregunta 2: Dulces que quedan (2/5 de 30) y Fracción Impropia a Mixto (7/6)</span>
         <span style="color:#92400e;">Valor: 10 Puntos</span>
       </div>
       <div class="sol-content">
         <b>Solución Paso a Paso:</b><br>
-        • <b>Chocolate (2/5 de 30):</b> (30 ÷ 5) × 2 = 6 × 2 = <code>12 galletas</code>.<br>
-        • <b>Caramelo (1/3 de 30):</b> (30 ÷ 3) × 1 = <code>10 galletas</code>.<br>
-        • <b>Vainilla (el resto):</b> 30 - (12 + 10) = 30 - 22 = <code>8 galletas</code>.<br>
+        • <b>a) Dulces repartidos (2/5 de 30):</b> <code>30 ÷ 5 = 6</code> &rarr; <code>6 × 2 = 12 dulces repartidos</code>.<br>
+        • <b>b) Dulces que QUEDARON en la caja:</b> <code>30 − 12 = 18 dulces quedaron</code>.<br>
+        • <b>c) De Fracción Impropia (7/6) a Número Mixto:</b> Dividimos <code>7 ÷ 6 = 1 entero</code> y sobra <code>1 sexto</code> &rarr; <code><b>1 1/6</b></code>.<br>
         <div class="rubric-box">
-          <b>Rúbrica de Calificación (10 pts):</b><br>
-          - <b>10 pts:</b> Los 3 valores son exactos con procedimiento claro (Chocolate: 12, Caramelo: 10, Vainilla: 8).<br>
-          - <b>7 pts:</b> Calcula bien chocolate (12) y caramelo (10), pero falla en la resta final del resto.<br>
-          - <b>4 pts:</b> Calcula correctamente al menos una de las dos fracciones.
+          <b>⚠️ Alerta Real del Taller de Luciana:</b> Al convertir <code>7/6</code> de galletas a número mixto, Luciana primero sumó los denominadores (escribió <code>6/12</code>) antes de corregirlo a <code>1 1/6</code>. Recordarle que el denominador (6 partes por paquete) NUNCA cambia.
         </div>
       </div>
     </div>
@@ -1040,26 +1035,23 @@ def build_solution_guide_html():
     <!-- SOLUCIÓN 3 -->
     <div class="sol-card">
       <div class="sol-header">
-        <span style="color:#059669;">Pregunta 3: Cálculo de volumen por conteo de cubitos</span>
+        <span style="color:#059669;">Pregunta 3: Cálculo de volumen por conteo de cubitos (1 cm³)</span>
         <span style="color:#92400e;">Valor: 10 Puntos</span>
       </div>
       <div class="sol-content">
         <b>Solución Paso a Paso:</b><br>
-        • <b>Piso 1 (Base inferior):</b> Tiene 3 cubos de largo por 2 de fondo = <code>3 × 2 = 6 cubitos</code> (incluye los cubos ocultos debajo de la capa superior).<br>
+        • <b>Piso 1 (Base inferior):</b> Tiene 3 cubos de largo por 2 de ancho = <code>3 × 2 = 6 cubitos</code> (incluyendo los ocultos).<br>
         • <b>Piso 2 (Capa superior):</b> Tiene <code>2 cubitos</code> visibles en la fila trasera.<br>
-        • <b>Volumen Total:</b> 6 + 2 = <code>8 cm³</code>.<br>
+        • <b>Volumen Total:</b> <code>6 + 2 = 8 cm³</code>.<br>
         <div class="rubric-box">
-          <b>Rúbrica de Calificación (10 pts):</b><br>
-          - <b>10 pts:</b> Identifica los 6 cubitos de la base, los 2 de la parte superior y suma 8 cm³.<br>
-          - <b>6 pts:</b> Olvida los cubitos ocultos y cuenta solo las caras que ve superficialmente (responde 6 o 7).<br>
-          <b>💡 Cómo guiar a la niña:</b> "Imagínate que estás construyendo una torre de Lego. Para que el segundo piso no se caiga, ¡debajo tiene que haber cubitos que sostengan el piso!".
+          <b>Rúbrica (10 pts):</b> 4 pts por contar los 6 del piso 1, 3 pts por los 2 del piso 2, y 3 pts por sumar <code>8 cm³</code> con su unidad cúbica.
         </div>
       </div>
     </div>
   </div>
 
   <div class="footer-row">
-    <span>Colegio Bilingüe Lerner & Klein · Guía Pedagógica</span>
+    <span>Colegio Bilingüe Lerner & Klein · Guía Pedagógica 4.° A</span>
     <span>Página 1 de 4</span>
   </div>
 </div>
@@ -1070,25 +1062,22 @@ def build_solution_guide_html():
     <div class="header-card" style="padding: 4px 10px; margin-bottom: 5px;">
       <div style="display: flex; justify-content: space-between; font-size: 8.5pt; font-weight: 700; color: #065f46;">
         <span>COLEGIO BILINGÜE LERNER & KLEIN · GUÍA DEL EVALUADOR</span>
-        <span>MATEMÁTICAS · 4.° PRIMARIA</span>
+        <span>MATEMÁTICAS · 4.° A</span>
       </div>
     </div>
 
     <!-- SOLUCIÓN 4 -->
     <div class="sol-card">
       <div class="sol-header">
-        <span style="color:#059669;">Pregunta 4: Volumen de prisma rectangular (6 × 4 × 3 cm)</span>
+        <span style="color:#059669;">Pregunta 4: Volumen de prismas rectangulares (V = largo × ancho × alto)</span>
         <span style="color:#92400e;">Valor: 10 Puntos</span>
       </div>
       <div class="sol-content">
         <b>Solución Paso a Paso:</b><br>
-        • <b>Fórmula:</b> Volumen = Largo × Ancho × Alto.<br>
-        • <b>Sustitución y cálculo:</b> 6 cm × 4 cm × 3 cm = 24 × 3 = <code>72 cm³</code>.<br>
+        • <b>a) Caja de la figura:</b> <code>V = 6 cm × 4 cm × 3 cm = 24 × 3 = 72 cm³</code>.<br>
+        • <b>b) Ejercicio exacto del cuaderno de Luciana:</b> <code>V = 5 cm × 2 cm × 6 cm = 10 × 6 = 60 cm³</code>.<br>
         <div class="rubric-box">
-          <b>Rúbrica de Calificación (10 pts):</b><br>
-          - <b>10 pts:</b> Aplica la multiplicación de las 3 dimensiones, obtiene 72 y coloca la unidad cúbica (cm³).<br>
-          - <b>8 pts:</b> Obtiene 72 pero olvida o coloca mal la unidad (ej: cm o cm²).<br>
-          - <b>5 pts:</b> Multiplica solo dos dimensiones (6 × 4 = 24, área de la base) y olvida multiplicar por la altura.
+          <b>Rúbrica (10 pts):</b> 5 pts por el inciso a (<code>72 cm³</code>) y 5 pts por el inciso b (<code>60 cm³</code>). Verificar que siempre escriba el exponente 3 (unidades cúbicas: <code>cm³</code>, <code>m³</code>).
         </div>
       </div>
     </div>
@@ -1096,20 +1085,17 @@ def build_solution_guide_html():
     <!-- SOLUCIÓN 5 -->
     <div class="sol-card">
       <div class="sol-header">
-        <span style="color:#059669;">Pregunta 5: Tabla comparativa de Cuerpos 3D</span>
+        <span style="color:#059669;">Pregunta 5: Tabla comparativa de Cuerpos Sólidos</span>
         <span style="color:#92400e;">Valor: 10 Puntos</span>
       </div>
       <div class="sol-content">
         <b>Solución de la Tabla:</b><br>
-        1. <b>Cubo:</b> Poliedro | Caras: <b>6</b> | Vértices: <b>8</b> | Aristas: <b>12</b> | Base: Cuadrado.<br>
-        2. <b>Prisma Pentagonal:</b> Poliedro | Caras: <b>7</b> (5+2) | Vértices: <b>10</b> (2×5) | Aristas: <b>15</b> (3×5) | Base: Pentágono.<br>
-        3. <b>Pirámide Cuadrangular:</b> Poliedro | Caras: <b>5</b> (4+1) | Vértices: <b>5</b> (4+1) | Aristas: <b>8</b> (2×4) | Base: Cuadrado.<br>
-        4. <b>Cilindro:</b> Redondo | Caras: 2 planas | Vértices: <b>0</b> | Aristas: 2 curvas | Base: Círculo.<br>
+        1. <b>Cubo:</b> Poliedro | Caras: <b>6</b> | Vértices: <b>8</b> | Aristas: <b>12</b> | Caras laterales: Cuadradas.<br>
+        2. <b>Prisma Triangular:</b> Poliedro | Caras: <b>5</b> | Vértices: <b>6</b> | Aristas: <b>9</b> | Caras laterales: <b>Rectangulares</b>.<br>
+        3. <b>Pirámide Cuadrangular:</b> Poliedro | Caras: <b>5</b> | Vértices: <b>5</b> | Aristas: <b>8</b> | Caras laterales: <b>Triangulares</b>.<br>
+        4. <b>Cono / Cilindro:</b> Redondos | Vértices: <b>Cono = 1 (cúspide) / Cilindro = 0</b>.<br>
         <div class="rubric-box">
-          <b>Rúbrica de Calificación (10 pts):</b> 2.5 pts por cada fila completada con exactitud.<br>
-          <b>💡 Reglas mnemotécnicas para repasar con Luciana:</b><br>
-          - En <b>prismas</b>: Vértices = el doble de lados de la base (2n); Aristas = el triple (3n).<br>
-          - En <b>pirámides</b>: Caras y Vértices son siempre iguales entre sí (n + 1). ¡Tienen la misma cantidad!
+          <b>Rúbrica (10 pts):</b> 2.5 pts por cada fila correcta.
         </div>
       </div>
     </div>
@@ -1117,23 +1103,22 @@ def build_solution_guide_html():
     <!-- SOLUCIÓN 6 -->
     <div class="sol-card">
       <div class="sol-header">
-        <span style="color:#059669;">Pregunta 6: Distinción de Pirámide vs Prisma</span>
+        <span style="color:#059669;">Pregunta 6: Distinción de Pirámide vs. Prisma (Mapa Conceptual del Cuaderno)</span>
         <span style="color:#92400e;">Valor: 10 Puntos</span>
       </div>
       <div class="sol-content">
         <b>Solución Paso a Paso:</b><br>
-        • <b>a) Cuerpo A:</b> Pirámide cuadrangular (tiene 1 base cuadrada y 4 caras triangulares).<br>
-        • <b>b) Cuerpo B:</b> Prisma triangular (tiene 2 bases triangulares paralelas e iguales y 3 caras laterales rectangulares).<br>
-        • <b>c) Diferencia conceptual:</b> Las pirámides terminan en un solo punto llamado <b>cúspide o ápice</b>, mientras que los prismas tienen <b>dos bases planas iguales</b> arriba y abajo.<br>
+        • <b>a) Cuerpo A:</b> Es una <b>Pirámide cuadrangular</b> porque tiene <b>1 sola base</b>, sus caras laterales son <b>triangulares</b> y terminan arriba en un <b>vértice (o cúspide)</b>.<br>
+        • <b>b) Cuerpo B:</b> Es un <b>Prisma triangular</b> porque tiene <b>2 bases iguales</b> y sus caras laterales son <b>rectangulares</b>.<br>
         <div class="rubric-box">
-          <b>Rúbrica (10 pts):</b> 3 pts por nombre exacto de A, 3 pts por nombre exacto de B, 4 pts por la explicación clara de bases vs cúspide.
+          <b>⚠️ Alerta Real del Cuaderno de Luciana:</b> En su mapa conceptual de <i>"Cuerpos sólidos"</i>, debajo de <b>Prisma</b> Luciana escribió por error <i>"Tiene dos bases, caras triangulares"</i>. Asegurarse de que tenga 100% claro que los <b>Prismas tienen caras laterales RECTANGULARES</b> y solo las <b>Pirámides tienen caras laterales TRIANGULARES</b>.
         </div>
       </div>
     </div>
   </div>
 
   <div class="footer-row">
-    <span>Colegio Bilingüe Lerner & Klein · Guía Pedagógica</span>
+    <span>Colegio Bilingüe Lerner & Klein · Guía Pedagógica 4.° A</span>
     <span>Página 2 de 4</span>
   </div>
 </div>
@@ -1144,29 +1129,25 @@ def build_solution_guide_html():
     <div class="header-card" style="padding: 4px 10px; margin-bottom: 5px;">
       <div style="display: flex; justify-content: space-between; font-size: 8.5pt; font-weight: 700; color: #065f46;">
         <span>COLEGIO BILINGÜE LERNER & KLEIN · GUÍA DEL EVALUADOR</span>
-        <span>MATEMÁTICAS · 4.° PRIMARIA</span>
+        <span>MATEMÁTICAS · 4.° A</span>
       </div>
     </div>
 
     <!-- SOLUCIÓN 7 -->
     <div class="sol-card">
       <div class="sol-header">
-        <span style="color:#059669;">Pregunta 7: Moda, Mediana y Rango de [4, 7, 3, 9, 7, 5, 7]</span>
+        <span style="color:#059669;">Pregunta 7: Tienda Escolar — 9 días [20, 25, 18, 22, 25, 30, 25, 20, 15]</span>
         <span style="color:#92400e;">Valor: 10 Puntos</span>
       </div>
       <div class="sol-content">
-        <b>Solución Paso a Paso:</b><br>
-        • <b>Paso 1 (Ordenar de menor a mayor):</b> <code>[ 3, 4, 5, 7, 7, 7, 9 ]</code>.<br>
-        • <b>a) Moda:</b> El dato con mayor frecuencia es <code>7</code> (aparece 3 veces).<br>
-        • <b>b) Mediana:</b> Como hay 7 datos (impar), la mediana es el 4.° dato que queda en el centro exacto: <code>7</code>.<br>
-        • <b>c) Rango:</b> Dato mayor (9) menos dato menor (3) = <code>9 - 3 = 6</code>.<br>
+        <b>Solución Paso a Paso (Ejercicio 1 del cuaderno de Luciana):</b><br>
+        • <b>Paso 1 (Ordenar los 9 datos de menor a mayor):</b> <code>15 - 18 - 20 - 20 - <b>[22]</b> - 25 - 25 - 25 - 30</code>.<br>
+        • <b>a) Moda:</b> <code>25</code> (es el dato que más se repite, aparece 3 veces).<br>
+        • <b>b) Mediana:</b> <code>22</code> (el 5.° dato que queda en el centro exacto de los 9 datos ordenados).<br>
+        • <b>c) Rango:</b> <code>30 − 15 = 15</code> (distancia entre el dato mayor y el dato menor).<br>
+        • <b>d) Media o promedio:</b> Suma = <code>200</code>. División: <code>200 ÷ 9 = 22</code> (o con decimal <code>22,22</code>).<br>
         <div class="rubric-box">
-          <b>Rúbrica de Calificación (10 pts):</b><br>
-          - 2.5 pts por ordenar correctamente la serie.<br>
-          - 2.5 pts por Moda = 7 con justificación.<br>
-          - 2.5 pts por Mediana = 7 señalando la posición central.<br>
-          - 2.5 pts por Rango = 6 con la resta 9 - 3.<br>
-          <b>💡 Error crítico de primaria:</b> Buscar la mediana sin ordenar primero los datos originales (daría 9 en vez de 7).
+          <b>Rúbrica (10 pts):</b> 2 pts por ordenar, 2 pts por Moda, 2 pts por Mediana, 2 pts por Rango y 2 pts por Media.
         </div>
       </div>
     </div>
@@ -1174,19 +1155,15 @@ def build_solution_guide_html():
     <!-- SOLUCIÓN 8 -->
     <div class="sol-card">
       <div class="sol-header">
-        <span style="color:#059669;">Pregunta 8: Media (Promedio) de notas [85, 90, 75, 100, 90]</span>
+        <span style="color:#059669;">Pregunta 8: Edades de 9 niños [9, 10, 12, 11, 10, 13, 12, 10, 8] y División 95 ÷ 9</span>
         <span style="color:#92400e;">Valor: 10 Puntos</span>
       </div>
       <div class="sol-content">
-        <b>Solución Paso a Paso:</b><br>
-        • <b>Paso 1 (Suma de notas):</b> 85 + 90 + 75 + 100 + 90 = <code>440 puntos</code>.<br>
-        • <b>Paso 2 (División entre N = 5):</b> 440 ÷ 5 = <code>88 puntos</code>.<br>
-        • <b>Respuesta final:</b> La Media (Promedio) es de 88 puntos.<br>
+        <b>Solución Paso a Paso (Ejercicio 5 del cuaderno de Luciana):</b><br>
+        • <b>a) Ordenados:</b> <code>8 - 9 - 10 - 10 - <b>[10]</b> - 11 - 12 - 12 - 13</code> &rarr; <b>Moda = <code>10</code></b> | <b>Mediana = <code>10</code></b> | <b>Rango = <code>13 − 8 = 5</code></b>.<br>
+        • <b>b) Media (95 ÷ 9):</b> Suma = <code>95</code>. Cociente entero = <code>10</code> (sobran 5). Con decimal = <code><b>10,55</b></code>.<br>
         <div class="rubric-box">
-          <b>Rúbrica de Calificación (10 pts):</b><br>
-          - <b>10 pts:</b> Suma correctamente 440, divide entre 5 y obtiene 88.<br>
-          - <b>6 pts:</b> Plantea la suma y la división correctamente pero comete un error de cálculo aritmético menor.<br>
-          - <b>3 pts:</b> Suma las notas pero no realiza la división entre 5.
+          <b>⚠️ Alerta Real del Cuaderno de Luciana:</b> En su cuaderno, al dividir <code>95 ÷ 9</code> con decimales, Luciana escribió <code>10,05</code> porque al colocar el <code>0</code> del <code>10</code> puso otro cero después de la coma. Explicarle: <code>9 × 10 = 90</code> (sobran 5); al poner la coma agregas un cero al 5 formando <code>50</code>, y <code>50 ÷ 9 = 5</code> &rarr; <b><code>10,55</code></b>.
         </div>
       </div>
     </div>
@@ -1194,25 +1171,22 @@ def build_solution_guide_html():
     <!-- SOLUCIÓN 9 -->
     <div class="sol-card">
       <div class="sol-header">
-        <span style="color:#059669;">Pregunta 9: Porcentajes en cuadrícula (35 casillas)</span>
+        <span style="color:#059669;">Pregunta 9: Porcentajes C-P-A en las 2 cuadrículas del cuaderno (60% y 22%)</span>
         <span style="color:#92400e;">Valor: 10 Puntos</span>
       </div>
       <div class="sol-content">
-        <b>Solución Paso a Paso (El Trío Matemático):</b><br>
-        • <b>a) Conteo:</b> 35 casillas sombreadas.<br>
-        • <b>b) Porcentaje:</b> <code>35%</code>.<br>
-        • <b>c) Fracción Decimal:</b> <code>35/100</code> (simplificada: 7/20).<br>
-        • <b>d) Número Decimal:</b> <code>0.35</code>.<br>
-        • <b>e) Significado:</b> Significa 35 de cada 100 partes.<br>
+        <b>Solución Paso a Paso (Clase 49 del cuaderno):</b><br>
+        • <b>Cuadrícula A (6 filas azules):</b> <code>60</code> cuadritos de 100 | Porcentaje: <code>60%</code> | Fracción: <code>60/100</code> (simplificada: <code>6/10 = 3/5</code>) | Decimal: <code>0,60</code> (o <code>0,6</code>).<br>
+        • <b>Cuadrícula B (2 filas + 2 cuadritos):</b> <code>22</code> cuadritos de 100 | Porcentaje: <code>22%</code> | Fracción: <code>22/100</code> (o <code>11/50</code>) | Decimal: <code>0,22</code>.<br>
         <div class="rubric-box">
-          <b>Rúbrica de Calificación (10 pts):</b> 2 pts por cada inciso correcto.
+          <b>Rúbrica (10 pts):</b> 5 pts por completar correctamente la Cuadrícula A y 5 pts por la Cuadrícula B.
         </div>
       </div>
     </div>
   </div>
 
   <div class="footer-row">
-    <span>Colegio Bilingüe Lerner & Klein · Guía Pedagógica</span>
+    <span>Colegio Bilingüe Lerner & Klein · Guía Pedagógica 4.° A</span>
     <span>Página 3 de 4</span>
   </div>
 </div>
@@ -1223,26 +1197,24 @@ def build_solution_guide_html():
     <div class="header-card" style="padding: 4px 10px; margin-bottom: 5px;">
       <div style="display: flex; justify-content: space-between; font-size: 8.5pt; font-weight: 700; color: #065f46;">
         <span>COLEGIO BILINGÜE LERNER & KLEIN · GUÍA DEL EVALUADOR</span>
-        <span>MATEMÁTICAS · 4.° PRIMARIA</span>
+        <span>MATEMÁTICAS · 4.° A</span>
       </div>
     </div>
 
     <!-- SOLUCIÓN 10 -->
     <div class="sol-card">
       <div class="sol-header">
-        <span style="color:#059669;">Pregunta 10: Descuento comercial del 25% sobre $60.000</span>
+        <span style="color:#059669;">Pregunta 10: El Juego de Mesa de $60.000 (25% = 1/4 = 0,25)</span>
         <span style="color:#92400e;">Valor: 10 Puntos</span>
       </div>
       <div class="sol-content">
         <b>Solución Paso a Paso:</b><br>
-        • <b>Dibujo:</b> Sombrea exactamente 25 casillas (2 filas y media o un bloque de 5×5).<br>
-        • <b>b) Valor del descuento (1/4 de $60.000):</b> $60.000 ÷ 4 = <code>$15.000 pesos</code>.<br>
-        • <b>c) Precio final a pagar:</b> $60.000 - $15.000 = <code>$45.000 pesos</code>.<br>
+        • <b>Cuadrícula:</b> Colorea exactamente 25 cuadritos (2 filas completas de 10 + 5 cuadritos).<br>
+        • <b>a) Equivalencia y valor posicional:</b> <code>25% = 25/100 = 1/4 = 0,25</code> (<b>0</b> parte entera, <b>2</b> décimas y <b>5</b> centésimas).<br>
+        • <b>b) Descuento (1/4 de $60.000):</b> <code>$60.000 ÷ 4 = $15.000</code> pesos de descuento.<br>
+        • <b>c) Valor final a pagar:</b> <code>$60.000 − $15.000 = $45.000</code> pesos.<br>
         <div class="rubric-box">
-          <b>Rúbrica de Calificación (10 pts):</b><br>
-          - 3 pts por sombrear 25 casillas.<br>
-          - 4 pts por calcular el descuento de $15.000.<br>
-          - 3 pts por restar correctamente y responder $45.000.
+          <b>Rúbrica (10 pts):</b> 2 pts por pintar 25 cuadritos, 3 pts por equivalencia y descomposición posicional, 3 pts por hallar $15.000 y 2 pts por restar $45.000 y escribir la respuesta completa (R:).
         </div>
       </div>
     </div>
@@ -1271,33 +1243,32 @@ def build_solution_guide_html():
           <tr>
             <td style="padding: 4px 6px; border: 1px solid #cbd5e1; font-weight: 800; color: #1d4ed8;">🟢 ALTO</td>
             <td style="padding: 4px 6px; border: 1px solid #cbd5e1; font-weight: 700;">80 - 89 pts</td>
-            <td style="padding: 4px 6px; border: 1px solid #cbd5e1;">Comprensión sólida; errores menores en conteo o unidades de volumen.</td>
-            <td style="padding: 4px 6px; border: 1px solid #cbd5e1;">Revisar con calma la pregunta fallada e insistir en leer con atención los enunciados.</td>
+            <td style="padding: 4px 6px; border: 1px solid #cbd5e1;">Comprensión sólida; detalles menores en división decimal o unidades.</td>
+            <td style="padding: 4px 6px; border: 1px solid #cbd5e1;">Practicar las misiones interactivas de cada tema en el modo Aprender Jugando de la aplicación.</td>
           </tr>
           <tr>
             <td style="padding: 4px 6px; border: 1px solid #cbd5e1; font-weight: 800; color: #b45309;">🟡 BÁSICO</td>
             <td style="padding: 4px 6px; border: 1px solid #cbd5e1; font-weight: 700;">70 - 79 pts</td>
-            <td style="padding: 4px 6px; border: 1px solid #cbd5e1;">Alcanza los objetivos mínimos, pero confunde mediana sin ordenar o fórmulas de prismas.</td>
-            <td style="padding: 4px 6px; border: 1px solid #cbd5e1;">Realizar 1 sesión guiada en el modo "Aprender" con el visor 3D y la cuadrícula interactiva de 100.</td>
+            <td style="padding: 4px 6px; border: 1px solid #cbd5e1;">Alcanza los objetivos mínimos, pero confunde caras de prismas o método 2 de fracciones.</td>
+            <td style="padding: 4px 6px; border: 1px solid #cbd5e1;">Jugar el Minijuego de Fracciones, la Pastelería de Números Mixtos y el Detective 3D de Cuerpos Sólidos.</td>
           </tr>
           <tr>
             <td style="padding: 4px 6px; border: 1px solid #cbd5e1; font-weight: 800; color: #b91c1c;">🔴 BAJO</td>
             <td style="padding: 4px 6px; border: 1px solid #cbd5e1; font-weight: 700;">&lt; 70 pts</td>
-            <td style="padding: 4px 6px; border: 1px solid #cbd5e1;">Dificultades en la mecánica de cálculo de fracciones o concepto de volumen.</td>
-            <td style="padding: 4px 6px; border: 1px solid #cbd5e1;">Acompañar paso a paso con material concreto (bloques Lego o granos de fríjol para repartir).</td>
+            <td style="padding: 4px 6px; border: 1px solid #cbd5e1;">Dificultades en la mecánica de cálculo de fracciones, media o volumen.</td>
+            <td style="padding: 4px 6px; border: 1px solid #cbd5e1;">Acompañar paso a paso con el enfoque C-P-A de la aplicación antes de repetir el simulacro.</td>
           </tr>
         </tbody>
       </table>
 
       <div style="margin-top: 8px; font-size: 8.5pt; color: #334155; line-height: 1.4;">
-        <b>Consejo de Oro para Padres:</b> Las matemáticas en 4.° grado se consolidan cuando la niña visualiza el concepto antes de memorizar la fórmula.
-        Usen el laboratorio 3D en pantalla y la cuadrícula de colores para que el aprendizaje sea un juego emocionante y no una carga de estrés.
+        <b>Consejo de Oro para Padres (Enfoque C-P-A de la Prof.ª Andrea Guerrero):</b> Verificar siempre que Luciana escriba la respuesta completa con sentido (<b>R: ...</b>) respondiendo exactamente a la pregunta formulada, tal como se exige en los formatos de evaluación del colegio.
       </div>
     </div>
   </div>
 
   <div class="footer-row">
-    <span>Colegio Bilingüe Lerner & Klein · Guía Pedagógica</span>
+    <span>Colegio Bilingüe Lerner & Klein · Guía Pedagógica 4.° A</span>
     <span>Página 4 de 4</span>
   </div>
 </div>
